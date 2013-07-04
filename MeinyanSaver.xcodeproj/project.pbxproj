@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6D37D8881786120A00427587 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D37D8871786120A00427587 /* Cocoa.framework */; };
+		6D37D88A1786120A00427587 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D37D8891786120A00427587 /* ScreenSaver.framework */; };
+		6D37D8941786120A00427587 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D37D8921786120A00427587 /* InfoPlist.strings */; };
+		6D37D8981786120A00427587 /* MeinyanSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D37D8971786120A00427587 /* MeinyanSaverView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D37D8841786120A00427587 /* MeinyanSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeinyanSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D37D8871786120A00427587 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6D37D8891786120A00427587 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		6D37D88C1786120A00427587 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6D37D88D1786120A00427587 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6D37D88E1786120A00427587 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D37D8911786120A00427587 /* MeinyanSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeinyanSaver-Info.plist"; sourceTree = "<group>"; };
+		6D37D8931786120A00427587 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6D37D8951786120A00427587 /* MeinyanSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeinyanSaver-Prefix.pch"; sourceTree = "<group>"; };
+		6D37D8961786120A00427587 /* MeinyanSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeinyanSaverView.h; sourceTree = "<group>"; };
+		6D37D8971786120A00427587 /* MeinyanSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeinyanSaverView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D37D87F1786120A00427587 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D37D8881786120A00427587 /* Cocoa.framework in Frameworks */,
+				6D37D88A1786120A00427587 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6D37D8791786120A00427587 = {
+			isa = PBXGroup;
+			children = (
+				6D37D88F1786120A00427587 /* MeinyanSaver */,
+				6D37D8861786120A00427587 /* Frameworks */,
+				6D37D8851786120A00427587 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6D37D8851786120A00427587 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D37D8841786120A00427587 /* MeinyanSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D37D8861786120A00427587 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D37D8871786120A00427587 /* Cocoa.framework */,
+				6D37D8891786120A00427587 /* ScreenSaver.framework */,
+				6D37D88B1786120A00427587 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D37D88B1786120A00427587 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D37D88C1786120A00427587 /* AppKit.framework */,
+				6D37D88D1786120A00427587 /* CoreData.framework */,
+				6D37D88E1786120A00427587 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		6D37D88F1786120A00427587 /* MeinyanSaver */ = {
+			isa = PBXGroup;
+			children = (
+				6D37D8961786120A00427587 /* MeinyanSaverView.h */,
+				6D37D8971786120A00427587 /* MeinyanSaverView.m */,
+				6D37D8901786120A00427587 /* Supporting Files */,
+			);
+			path = MeinyanSaver;
+			sourceTree = "<group>";
+		};
+		6D37D8901786120A00427587 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D37D8911786120A00427587 /* MeinyanSaver-Info.plist */,
+				6D37D8921786120A00427587 /* InfoPlist.strings */,
+				6D37D8951786120A00427587 /* MeinyanSaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6D37D8801786120A00427587 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6D37D8831786120A00427587 /* MeinyanSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D37D89B1786120A00427587 /* Build configuration list for PBXNativeTarget "MeinyanSaver" */;
+			buildPhases = (
+				6D37D87E1786120A00427587 /* Sources */,
+				6D37D87F1786120A00427587 /* Frameworks */,
+				6D37D8801786120A00427587 /* Headers */,
+				6D37D8811786120A00427587 /* Resources */,
+				6D37D8821786120A00427587 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeinyanSaver;
+			productName = MeinyanSaver;
+			productReference = 6D37D8841786120A00427587 /* MeinyanSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6D37D87A1786120A00427587 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "梅村 直寛";
+			};
+			buildConfigurationList = 6D37D87D1786120A00427587 /* Build configuration list for PBXProject "MeinyanSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6D37D8791786120A00427587;
+			productRefGroup = 6D37D8851786120A00427587 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6D37D8831786120A00427587 /* MeinyanSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D37D8811786120A00427587 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D37D8941786120A00427587 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		6D37D8821786120A00427587 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6D37D87E1786120A00427587 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D37D8981786120A00427587 /* MeinyanSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6D37D8921786120A00427587 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6D37D8931786120A00427587 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6D37D8991786120A00427587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6D37D89A1786120A00427587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6D37D89C1786120A00427587 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeinyanSaver/MeinyanSaver-Prefix.pch";
+				INFOPLIST_FILE = "MeinyanSaver/MeinyanSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		6D37D89D1786120A00427587 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MeinyanSaver/MeinyanSaver-Prefix.pch";
+				INFOPLIST_FILE = "MeinyanSaver/MeinyanSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6D37D87D1786120A00427587 /* Build configuration list for PBXProject "MeinyanSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D37D8991786120A00427587 /* Debug */,
+				6D37D89A1786120A00427587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D37D89B1786120A00427587 /* Build configuration list for PBXNativeTarget "MeinyanSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D37D89C1786120A00427587 /* Debug */,
+				6D37D89D1786120A00427587 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6D37D87A1786120A00427587 /* Project object */;
+}
