@@ -7,92 +7,143 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D37D8881786120A00427587 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D37D8871786120A00427587 /* Cocoa.framework */; };
-		6D37D88A1786120A00427587 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D37D8891786120A00427587 /* ScreenSaver.framework */; };
-		6D37D8941786120A00427587 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D37D8921786120A00427587 /* InfoPlist.strings */; };
-		6D37D8981786120A00427587 /* MeinyanSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D37D8971786120A00427587 /* MeinyanSaverView.m */; };
+		6D5FE43B177F723000287FD3 /* VERMEI.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D5FE43A177F723000287FD3 /* VERMEI.png */; };
+		6DD431831775CED600B472F1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD431821775CED600B472F1 /* Cocoa.framework */; };
+		6DD431851775CED600B472F1 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DD431841775CED600B472F1 /* ScreenSaver.framework */; };
+		6DD4318F1775CED600B472F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DD4318D1775CED600B472F1 /* InfoPlist.strings */; };
+		6DD431931775CED600B472F1 /* MeinyanSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DD431921775CED600B472F1 /* MeinyanSaverView.m */; };
+		6DDBEBB61776D9DB0095666C /* SettingWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DDBEBB51776D9DB0095666C /* SettingWindow.xib */; };
+		6DFE7E87177A17C600ACA5B7 /* L1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E83177A17C600ACA5B7 /* L1.png */; };
+		6DFE7E88177A17C600ACA5B7 /* L2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E84177A17C600ACA5B7 /* L2.png */; };
+		6DFE7E89177A17C600ACA5B7 /* L3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E85177A17C600ACA5B7 /* L3.png */; };
+		6DFE7E8A177A17C600ACA5B7 /* L4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E86177A17C600ACA5B7 /* L4.png */; };
+		6DFE7E8F177A17DE00ACA5B7 /* R1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E8B177A17DE00ACA5B7 /* R1.png */; };
+		6DFE7E90177A17DE00ACA5B7 /* R2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E8C177A17DE00ACA5B7 /* R2.png */; };
+		6DFE7E91177A17DE00ACA5B7 /* R3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E8D177A17DE00ACA5B7 /* R3.png */; };
+		6DFE7E92177A17DE00ACA5B7 /* R4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E8E177A17DE00ACA5B7 /* R4.png */; };
+		6DFE7E99177B651900ACA5B7 /* NSCharactar.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFE7E97177B651900ACA5B7 /* NSCharactar.h */; };
+		6DFE7E9A177B651900ACA5B7 /* NSCharactar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE7E98177B651900ACA5B7 /* NSCharactar.m */; };
+		6DFE7E9D177C19D900ACA5B7 /* NSCharFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DFE7E9B177C19D900ACA5B7 /* NSCharFrame.h */; };
+		6DFE7E9E177C19D900ACA5B7 /* NSCharFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DFE7E9C177C19D900ACA5B7 /* NSCharFrame.m */; };
+		6DFE7EA0177D732C00ACA5B7 /* CharFrameImg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7E9F177D732C00ACA5B7 /* CharFrameImg.plist */; };
+		6DFE7EA2177D742900ACA5B7 /* CharL2RPattern.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7EA1177D742900ACA5B7 /* CharL2RPattern.plist */; };
+		6DFE7EA4177D790A00ACA5B7 /* CharR2LPattern.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DFE7EA3177D790A00ACA5B7 /* CharR2LPattern.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D37D8841786120A00427587 /* MeinyanSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeinyanSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D37D8871786120A00427587 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		6D37D8891786120A00427587 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
-		6D37D88C1786120A00427587 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		6D37D88D1786120A00427587 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		6D37D88E1786120A00427587 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6D37D8911786120A00427587 /* MeinyanSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeinyanSaver-Info.plist"; sourceTree = "<group>"; };
-		6D37D8931786120A00427587 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6D37D8951786120A00427587 /* MeinyanSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeinyanSaver-Prefix.pch"; sourceTree = "<group>"; };
-		6D37D8961786120A00427587 /* MeinyanSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeinyanSaverView.h; sourceTree = "<group>"; };
-		6D37D8971786120A00427587 /* MeinyanSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeinyanSaverView.m; sourceTree = "<group>"; };
+		6D5FE43A177F723000287FD3 /* VERMEI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VERMEI.png; sourceTree = "<group>"; };
+		6DD4317F1775CED600B472F1 /* MeinyanSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeinyanSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DD431821775CED600B472F1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6DD431841775CED600B472F1 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		6DD431871775CED600B472F1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		6DD431881775CED600B472F1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6DD431891775CED600B472F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6DD4318C1775CED600B472F1 /* MeinyanSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeinyanSaver-Info.plist"; sourceTree = "<group>"; };
+		6DD4318E1775CED600B472F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6DD431901775CED600B472F1 /* MeinyanSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeinyanSaver-Prefix.pch"; sourceTree = "<group>"; };
+		6DD431911775CED600B472F1 /* MeinyanSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeinyanSaverView.h; sourceTree = "<group>"; };
+		6DD431921775CED600B472F1 /* MeinyanSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeinyanSaverView.m; sourceTree = "<group>"; };
+		6DDBEBB51776D9DB0095666C /* SettingWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingWindow.xib; sourceTree = "<group>"; };
+		6DFE7E83177A17C600ACA5B7 /* L1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L1.png; sourceTree = "<group>"; };
+		6DFE7E84177A17C600ACA5B7 /* L2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L2.png; sourceTree = "<group>"; };
+		6DFE7E85177A17C600ACA5B7 /* L3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L3.png; sourceTree = "<group>"; };
+		6DFE7E86177A17C600ACA5B7 /* L4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L4.png; sourceTree = "<group>"; };
+		6DFE7E8B177A17DE00ACA5B7 /* R1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R1.png; sourceTree = "<group>"; };
+		6DFE7E8C177A17DE00ACA5B7 /* R2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R2.png; sourceTree = "<group>"; };
+		6DFE7E8D177A17DE00ACA5B7 /* R3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R3.png; sourceTree = "<group>"; };
+		6DFE7E8E177A17DE00ACA5B7 /* R4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = R4.png; sourceTree = "<group>"; };
+		6DFE7E97177B651900ACA5B7 /* NSCharactar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharactar.h; sourceTree = "<group>"; };
+		6DFE7E98177B651900ACA5B7 /* NSCharactar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharactar.m; sourceTree = "<group>"; };
+		6DFE7E9B177C19D900ACA5B7 /* NSCharFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSCharFrame.h; sourceTree = "<group>"; };
+		6DFE7E9C177C19D900ACA5B7 /* NSCharFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSCharFrame.m; sourceTree = "<group>"; };
+		6DFE7E9F177D732C00ACA5B7 /* CharFrameImg.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CharFrameImg.plist; sourceTree = "<group>"; };
+		6DFE7EA1177D742900ACA5B7 /* CharL2RPattern.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CharL2RPattern.plist; sourceTree = "<group>"; };
+		6DFE7EA3177D790A00ACA5B7 /* CharR2LPattern.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CharR2LPattern.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D37D87F1786120A00427587 /* Frameworks */ = {
+		6DD4317A1775CED600B472F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D37D8881786120A00427587 /* Cocoa.framework in Frameworks */,
-				6D37D88A1786120A00427587 /* ScreenSaver.framework in Frameworks */,
+				6DD431831775CED600B472F1 /* Cocoa.framework in Frameworks */,
+				6DD431851775CED600B472F1 /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D37D8791786120A00427587 = {
+		6DD431741775CED600B472F1 = {
 			isa = PBXGroup;
 			children = (
-				6D37D88F1786120A00427587 /* MeinyanSaver */,
-				6D37D8861786120A00427587 /* Frameworks */,
-				6D37D8851786120A00427587 /* Products */,
+				6DD4318A1775CED600B472F1 /* MeinyanSaver */,
+				6DD431811775CED600B472F1 /* Frameworks */,
+				6DD431801775CED600B472F1 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6D37D8851786120A00427587 /* Products */ = {
+		6DD431801775CED600B472F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D37D8841786120A00427587 /* MeinyanSaver.saver */,
+				6DD4317F1775CED600B472F1 /* MeinyanSaver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D37D8861786120A00427587 /* Frameworks */ = {
+		6DD431811775CED600B472F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D37D8871786120A00427587 /* Cocoa.framework */,
-				6D37D8891786120A00427587 /* ScreenSaver.framework */,
-				6D37D88B1786120A00427587 /* Other Frameworks */,
+				6DD431821775CED600B472F1 /* Cocoa.framework */,
+				6DD431841775CED600B472F1 /* ScreenSaver.framework */,
+				6DD431861775CED600B472F1 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6D37D88B1786120A00427587 /* Other Frameworks */ = {
+		6DD431861775CED600B472F1 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6D37D88C1786120A00427587 /* AppKit.framework */,
-				6D37D88D1786120A00427587 /* CoreData.framework */,
-				6D37D88E1786120A00427587 /* Foundation.framework */,
+				6DD431871775CED600B472F1 /* AppKit.framework */,
+				6DD431881775CED600B472F1 /* CoreData.framework */,
+				6DD431891775CED600B472F1 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		6D37D88F1786120A00427587 /* MeinyanSaver */ = {
+		6DD4318A1775CED600B472F1 /* MeinyanSaver */ = {
 			isa = PBXGroup;
 			children = (
-				6D37D8961786120A00427587 /* MeinyanSaverView.h */,
-				6D37D8971786120A00427587 /* MeinyanSaverView.m */,
-				6D37D8901786120A00427587 /* Supporting Files */,
+				6DD431911775CED600B472F1 /* MeinyanSaverView.h */,
+				6DD431921775CED600B472F1 /* MeinyanSaverView.m */,
+				6DDBEBB51776D9DB0095666C /* SettingWindow.xib */,
+				6DFE7E97177B651900ACA5B7 /* NSCharactar.h */,
+				6DFE7E98177B651900ACA5B7 /* NSCharactar.m */,
+				6DFE7E9B177C19D900ACA5B7 /* NSCharFrame.h */,
+				6DFE7E9C177C19D900ACA5B7 /* NSCharFrame.m */,
+				6DD4318B1775CED600B472F1 /* Supporting Files */,
 			);
 			path = MeinyanSaver;
 			sourceTree = "<group>";
 		};
-		6D37D8901786120A00427587 /* Supporting Files */ = {
+		6DD4318B1775CED600B472F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6D37D8911786120A00427587 /* MeinyanSaver-Info.plist */,
-				6D37D8921786120A00427587 /* InfoPlist.strings */,
-				6D37D8951786120A00427587 /* MeinyanSaver-Prefix.pch */,
+				6D5FE43A177F723000287FD3 /* VERMEI.png */,
+				6DFE7E8B177A17DE00ACA5B7 /* R1.png */,
+				6DFE7E8C177A17DE00ACA5B7 /* R2.png */,
+				6DFE7E8D177A17DE00ACA5B7 /* R3.png */,
+				6DFE7E8E177A17DE00ACA5B7 /* R4.png */,
+				6DFE7E83177A17C600ACA5B7 /* L1.png */,
+				6DFE7E84177A17C600ACA5B7 /* L2.png */,
+				6DFE7E85177A17C600ACA5B7 /* L3.png */,
+				6DFE7E86177A17C600ACA5B7 /* L4.png */,
+				6DD4318C1775CED600B472F1 /* MeinyanSaver-Info.plist */,
+				6DD4318D1775CED600B472F1 /* InfoPlist.strings */,
+				6DD431901775CED600B472F1 /* MeinyanSaver-Prefix.pch */,
+				6DFE7E9F177D732C00ACA5B7 /* CharFrameImg.plist */,
+				6DFE7EA1177D742900ACA5B7 /* CharL2RPattern.plist */,
+				6DFE7EA3177D790A00ACA5B7 /* CharR2LPattern.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -100,25 +151,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D37D8801786120A00427587 /* Headers */ = {
+		6DD4317B1775CED600B472F1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6DFE7E99177B651900ACA5B7 /* NSCharactar.h in Headers */,
+				6DFE7E9D177C19D900ACA5B7 /* NSCharFrame.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6D37D8831786120A00427587 /* MeinyanSaver */ = {
+		6DD4317E1775CED600B472F1 /* MeinyanSaver */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D37D89B1786120A00427587 /* Build configuration list for PBXNativeTarget "MeinyanSaver" */;
+			buildConfigurationList = 6DD431961775CED600B472F1 /* Build configuration list for PBXNativeTarget "MeinyanSaver" */;
 			buildPhases = (
-				6D37D87E1786120A00427587 /* Sources */,
-				6D37D87F1786120A00427587 /* Frameworks */,
-				6D37D8801786120A00427587 /* Headers */,
-				6D37D8811786120A00427587 /* Resources */,
-				6D37D8821786120A00427587 /* Rez */,
+				6DD431791775CED600B472F1 /* Sources */,
+				6DD4317A1775CED600B472F1 /* Frameworks */,
+				6DD4317B1775CED600B472F1 /* Headers */,
+				6DD4317C1775CED600B472F1 /* Resources */,
+				6DD4317D1775CED600B472F1 /* Rez */,
+				6D63BD31177935F30034C4B0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -126,48 +180,61 @@
 			);
 			name = MeinyanSaver;
 			productName = MeinyanSaver;
-			productReference = 6D37D8841786120A00427587 /* MeinyanSaver.saver */;
+			productReference = 6DD4317F1775CED600B472F1 /* MeinyanSaver.saver */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6D37D87A1786120A00427587 /* Project object */ = {
+		6DD431751775CED600B472F1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = "梅村 直寛";
+				ORGANIZATIONNAME = SuzumeJr;
 			};
-			buildConfigurationList = 6D37D87D1786120A00427587 /* Build configuration list for PBXProject "MeinyanSaver" */;
+			buildConfigurationList = 6DD431781775CED600B472F1 /* Build configuration list for PBXProject "MeinyanSaver" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 6D37D8791786120A00427587;
-			productRefGroup = 6D37D8851786120A00427587 /* Products */;
+			mainGroup = 6DD431741775CED600B472F1;
+			productRefGroup = 6DD431801775CED600B472F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D37D8831786120A00427587 /* MeinyanSaver */,
+				6DD4317E1775CED600B472F1 /* MeinyanSaver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D37D8811786120A00427587 /* Resources */ = {
+		6DD4317C1775CED600B472F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D37D8941786120A00427587 /* InfoPlist.strings in Resources */,
+				6DD4318F1775CED600B472F1 /* InfoPlist.strings in Resources */,
+				6DDBEBB61776D9DB0095666C /* SettingWindow.xib in Resources */,
+				6DFE7E87177A17C600ACA5B7 /* L1.png in Resources */,
+				6DFE7E88177A17C600ACA5B7 /* L2.png in Resources */,
+				6DFE7E89177A17C600ACA5B7 /* L3.png in Resources */,
+				6DFE7E8A177A17C600ACA5B7 /* L4.png in Resources */,
+				6DFE7E8F177A17DE00ACA5B7 /* R1.png in Resources */,
+				6DFE7E90177A17DE00ACA5B7 /* R2.png in Resources */,
+				6DFE7E91177A17DE00ACA5B7 /* R3.png in Resources */,
+				6DFE7E92177A17DE00ACA5B7 /* R4.png in Resources */,
+				6DFE7EA0177D732C00ACA5B7 /* CharFrameImg.plist in Resources */,
+				6DFE7EA2177D742900ACA5B7 /* CharL2RPattern.plist in Resources */,
+				6DFE7EA4177D790A00ACA5B7 /* CharR2LPattern.plist in Resources */,
+				6D5FE43B177F723000287FD3 /* VERMEI.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXRezBuildPhase section */
-		6D37D8821786120A00427587 /* Rez */ = {
+		6DD4317D1775CED600B472F1 /* Rez */ = {
 			isa = PBXRezBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,22 +243,40 @@
 		};
 /* End PBXRezBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D63BD31177935F30034C4B0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "open -W \"${CODESIGNING_FOLDER_PATH}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		6D37D87E1786120A00427587 /* Sources */ = {
+		6DD431791775CED600B472F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D37D8981786120A00427587 /* MeinyanSaverView.m in Sources */,
+				6DD431931775CED600B472F1 /* MeinyanSaverView.m in Sources */,
+				6DFE7E9A177B651900ACA5B7 /* NSCharactar.m in Sources */,
+				6DFE7E9E177C19D900ACA5B7 /* NSCharFrame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6D37D8921786120A00427587 /* InfoPlist.strings */ = {
+		6DD4318D1775CED600B472F1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6D37D8931786120A00427587 /* en */,
+				6DD4318E1775CED600B472F1 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -199,7 +284,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6D37D8991786120A00427587 /* Debug */ = {
+		6DD431941775CED600B472F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +300,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -226,13 +311,15 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		6D37D89A1786120A00427587 /* Release */ = {
+		6DD431951775CED600B472F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -248,19 +335,22 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		6D37D89C1786120A00427587 /* Debug */ = {
+		6DD431971775CED600B472F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeinyanSaver/MeinyanSaver-Prefix.pch";
@@ -271,9 +361,10 @@
 			};
 			name = Debug;
 		};
-		6D37D89D1786120A00427587 /* Release */ = {
+		6DD431981775CED600B472F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeinyanSaver/MeinyanSaver-Prefix.pch";
@@ -287,24 +378,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D37D87D1786120A00427587 /* Build configuration list for PBXProject "MeinyanSaver" */ = {
+		6DD431781775CED600B472F1 /* Build configuration list for PBXProject "MeinyanSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D37D8991786120A00427587 /* Debug */,
-				6D37D89A1786120A00427587 /* Release */,
+				6DD431941775CED600B472F1 /* Debug */,
+				6DD431951775CED600B472F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D37D89B1786120A00427587 /* Build configuration list for PBXNativeTarget "MeinyanSaver" */ = {
+		6DD431961775CED600B472F1 /* Build configuration list for PBXNativeTarget "MeinyanSaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D37D89C1786120A00427587 /* Debug */,
-				6D37D89D1786120A00427587 /* Release */,
+				6DD431971775CED600B472F1 /* Debug */,
+				6DD431981775CED600B472F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6D37D87A1786120A00427587 /* Project object */;
+	rootObject = 6DD431751775CED600B472F1 /* Project object */;
 }
