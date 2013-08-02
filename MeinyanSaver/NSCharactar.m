@@ -28,14 +28,14 @@ typedef enum : int
  *  @note       複数生成すればクローンがｗ雑魚キャラとかそうなんだろねｗ
  *              あと、コレに色々パターンなんか加えていけば色々なモノ出来るかと
  */
-@interface NSCharactar()
+@implementation NSCharactar
 {
 @private
     ///キャラクター環境情報
     NSRect          _rectScreen;
     
     /**
-     *  キャラクタのアニメーションパターン画像
+     *  @name       キャラクタのアニメーションパターン画像
      *  @details    各NSArraryオブジェクト変数内にはNSCharFrameクラスを格納しておく
      *  @see        NSCharFrame
      */
@@ -47,7 +47,7 @@ typedef enum : int
     NSInteger       _iRightToLeftFrames;    ///<右から左のフレーム数
     ///@}
     
-    ///キャラクター情報
+    ///@name    キャラクター情報
     ///@{
     CHAR_PATTERN    _ePattern;  ///<行動パターン
     NSPoint         _point;     ///<現在位置
@@ -56,9 +56,6 @@ typedef enum : int
     NSRect          _rectChar;  ///<キャラパターンの基本サイズ
     ///@}
 }
-@end
-
-@implementation NSCharactar
 
 /**
  *  初期化イメージ作成

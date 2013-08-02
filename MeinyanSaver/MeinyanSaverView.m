@@ -11,40 +11,7 @@
 #import "NSCharFrame.h"
 
 @interface MeinyanSaverView()
-{
-@private
-    
-    IBOutlet id configSheet;        ///<スクリーンセーバー設定オプションのMSWindowオブジェクトを格納するOutlet
-    ///スクリーンセーバ設定ウインド内コントロール用Outlet
-    ///@{
-    IBOutlet NSTextField*   _txtPersons;    ///<表示人数
-    IBOutlet NSTextField*   _txtInterval;   ///<表示速度
-    IBOutlet NSTextField*   _txtAlpha;      ///<残像濃度
-    IBOutlet NSSlider*      _sldPerson;     ///<表示人数
-    IBOutlet NSSlider*      _sldInterval;   ///<表示速度
-    IBOutlet NSSlider*      _sldAlpha;      ///<残像濃度
-    ///@}
-    
-    NSColor*    _clrBack;           ///<背景塗りつぶしカラー
-    
-    ///メイニャンアニメーションデータ群
-    ///@{
-    NSDictionary*   _dicImages;         ///<アニメイーション用画像(NSImage)を格納、Keyはファイル名(拡張子除く)
-    NSArray*        _aImgMeinyanLeft;   ///<左向きキャラパターン(NSCharaFrame)を格納
-    NSArray*        _aImgMeinyanRight;  ///<右向きキャラパターン(NSCharaFrame)を格納
-    NSArray*        _aChras;            ///<メイニャン(NSCharactar)の人数分を格納
-    ///@}
-    
-    ///スクリーンセーバーの設定値
-    ///@{
-    NSInteger   _persons;   ///<    メイニャンの人数
-    NSInteger   _interval;  ///<    アニメーション速度
-    NSInteger   _alpha;     ///<    残像濃度
-    ///<    残像濃度
-    ///@}
-}
-
-///スクリーンセーバー設定用の宣言
+///@nameスクリーンセーバー設定用の宣言
 ///@{
 - (IBAction)closeOptionWindow:(id)sender;   ///<設定完了用の閉じるボタンが押された場合のアクション
 - (IBAction)inputPersons:(id)sender;        ///<テキスト入力で表示人数の設定を変更した場合のアクション
@@ -57,7 +24,38 @@
 @end
  
 @implementation MeinyanSaverView
-
+{
+@private
+    
+    IBOutlet id configSheet;        ///<スクリーンセーバー設定オプションのMSWindowオブジェクトを格納するOutlet
+    ///@name    スクリーンセーバ設定ウインド内コントロール用Outlet
+    ///@{
+    IBOutlet NSTextField*   _txtPersons;    ///<表示人数
+    IBOutlet NSTextField*   _txtInterval;   ///<表示速度
+    IBOutlet NSTextField*   _txtAlpha;      ///<残像濃度
+    IBOutlet NSSlider*      _sldPerson;     ///<表示人数
+    IBOutlet NSSlider*      _sldInterval;   ///<表示速度
+    IBOutlet NSSlider*      _sldAlpha;      ///<残像濃度
+    ///@}
+    
+    NSColor*    _clrBack;           ///<背景塗りつぶしカラー
+    
+    ///@name    メイニャンアニメーションデータ群
+    ///@{
+    NSDictionary*   _dicImages;         ///<アニメイーション用画像(NSImage)を格納、Keyはファイル名(拡張子除く)
+    NSArray*        _aImgMeinyanLeft;   ///<左向きキャラパターン(NSCharaFrame)を格納
+    NSArray*        _aImgMeinyanRight;  ///<右向きキャラパターン(NSCharaFrame)を格納
+    NSArray*        _aChras;            ///<メイニャン(NSCharactar)の人数分を格納
+    ///@}
+    
+    ///@name    スクリーンセーバーの設定値
+    ///@{
+    NSInteger   _persons;   ///<    メイニャンの人数
+    NSInteger   _interval;  ///<    アニメーション速度
+    NSInteger   _alpha;     ///<    残像濃度
+    ///<    残像濃度
+    ///@}
+}
 /**
  *  初期処理メソッド
  *  @param  frame       スクリーンセーバする画面サイズなんですかね？
@@ -222,6 +220,7 @@
  *  アニメーション画像読み込み
  *  @return     TRUE固定
  *  @details    リソースからアニメーションに使用する画像データを読み込み処理出来るよう準備する
+ *  @return TRUE固定
  */
 -(BOOL)LoadImgPaturn
 {    

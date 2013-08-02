@@ -9,5 +9,4 @@
 #import <ScreenSaver/ScreenSaver.h>
 
 @interface MeinyanSaverView : ScreenSaverView
-
 @end

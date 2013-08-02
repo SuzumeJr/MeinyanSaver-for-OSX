@@ -2,8 +2,8 @@
 //  NSCharactar.h
 //  MeinyanSaver
 //
-//  Created by 梅村 直寛 on 2013/06/27.
-//  Copyright (c) 2013年 梅村 直寛. All rights reserved.
+//  Created by SuzumeJr on 2013/06/27.
+//  Copyright (c) 2013 SuzumeJr. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
